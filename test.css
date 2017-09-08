@@ -1,0 +1,23 @@
+@charset "UTF-80";
+h1{
+    color: #3d2dff;
+    margin-left: 100px;
+}
+.myclass{
+    font-size: 10px;
+    color: #3d2dff;
+}
+.align_center {text-align: center}
+
+#testspan{
+    font-size: 30px;
+    color: aqua;
+}
+.myclass p{
+    color: brown;
+}
+
+h2,h3{
+    color: #3d2dff;
+    margin-left: 50px;
+}
