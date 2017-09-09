@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .position_left{
+            position: relative;
+            left: -30px;
+        }
+        .postion_right{
+            position: relative;
+            left:+30px;
+        }
+        h2{
+            background-color: #ff321b;
+        }
+
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        #content{
+            position: relative;
+            width: 300px;
+            text-align: center;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            border: 2px solid red;
+            margin: 5em;
+        }
+        .title{
+            font-size: 14px;
+            font-weight:bold;
+        }
+        #logo{
+            margin-right: auto;
+            margin-left: auto;
+        }
+    </style>
+</head>
+<body>
+    <h2>상대좌표계: 원래위치에 표시됩니다.</h2>
+    <h2 class="position_left">상대좌표계: 왼쪽으로 -30px</h2>
+    <h2 class="postion_right">상대좌표계: 오른쪽으로 +30px</h2>
+    <div id="content">
+        <p class="title">당신의 차별화전략은 ? 이미지를 큰걸 넣으면 삐져나오네요</p>
+        <img id=logo src="test.jpg" alt="">
+
+    </div>
+
+
+</body>
+</html>

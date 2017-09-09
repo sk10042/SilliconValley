@@ -1,0 +1,62 @@
+@charset "UTF-80";
+h1{
+    color: #3d2dff;
+    margin-left: 100px;
+}
+.myclass{
+    font-size: 10px;
+    color: #3d2dff;
+}
+.align_center {text-align: center}
+
+#testspan{
+    font-size: 30px;
+    color: aqua;
+}
+.myclass p{
+    color: brown;
+}
+
+h2,h3{
+    color: #3d2dff;
+    margin-left: 250px;
+}
+
+h1{
+    font-family: 'Bell MT';
+    font-size: 125px;
+    margin-left: 20px;
+}
+a:link{
+    color: brown;
+}
+
+a:visited{
+    color: coral;
+}
+
+a:hover{
+    color: chartreuse;
+}
+
+a:active{
+    color: deeppink;
+}
+
+h4{
+    position: absolute;
+    left: 50px;
+    top: 200px;
+    width: 200px;
+    color:blueviolet;
+    background-color: deeppink;
+}
+
+h5{
+    position: relative;
+    left: 50px;
+    top: 200px;
+    width: 200px;
+    color:blueviolet;
+    background-color: deeppink;
+}
