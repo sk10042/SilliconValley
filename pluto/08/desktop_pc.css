@@ -1,0 +1,9 @@
+@CHARSET "EUC-KR";
+
+body {
+	background-color: #:fff;
+}
+
+#mobile_view{
+	display: none;
+}

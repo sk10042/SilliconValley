@@ -1,0 +1,12 @@
+@CHARSET "EUC-KR";
+
+body {
+	background-color: yellow;	
+}
+#pc_title {
+	display: none;
+}
+
+#phone_title{
+	color: red;
+}
