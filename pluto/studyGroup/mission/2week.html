@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <style media="screen">
+            .top {
+                text-align: center;
+                width: 80%;
+                margin: 0 auto;
+                padding: 0.5em;
+            }
+
+            #cnt_btn {
+                width: 20%;
+                margin: 0 auto;
+                background-color: GREEN;
+                color: white;
+                padding: 0.5em;
+            }
+
+            .btm_list{
+                width: 33%;
+                float: left;
+            }
+
+            .btm_btn{
+                width: 20%;
+                background-color: blue;
+                color: white;
+                padding: 0.5em;
+
+            }
+
+            #btm_btn1, #btm_btn2, #btm_btn3{
+                width: 20%;
+                background-color: blue;
+                color: white;
+                padding: 0.5em;
+
+            }
+        </style>
+        <title>2주차 미션</title>
+    </head>
+    <body>
+        <div data-role="page" id="study">
+            <div data-role="header" >
+                <h1>Pluto</h1>
+                <div data-role="navbar" >
+                    <ul>
+                        <li><a href="2week_css.html">Home</a></li>
+                        <li><a href="#">ProjecServies</a></li>
+                        <li><a href="#">ServiesDownloads</a></li>
+                        <li><a href="#">Downloads</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Dropdown</a></li>
+                        <li>
+                            <select name="select-choice" id="select-choice-a" data-native-menu="false" data-theme="a" data-form="ui-btn-up-a">
+                				<option value="standard">Option 1</option>
+                				<option value="rush">Option 2</option>
+                				<option value="express">Option 3</option>
+                				<option value="overnight">Option 4</option>
+                			</select>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div data-role="content" data-theme="a" >
+                <div class="top">
+                    <h1 >Marketing stuff!!</h1>
+                    <h2>Cras justo odio, dapibus ac facilisis in, egestas eget quam, Fusce dapibus,
+                    tllus ac cursus commoodo, tortor mauris condimentum nibh, ut fermentum massa justo sit</h2>
+
+                    <a href="#" data-role="button" id="cnt_btn">Get started today</a>
+                </div>
+                <div class="bottom">
+                    <div class="btm_list">
+                        <h2>Heading</h2>
+                        <p>Donec id elit non mi porta gravida at eget metus.
+                            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
+                            ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis
+                            euismod. Donec sed odio dui.</p>
+                        <a href="#" data-role="button" id="btm_btn1">view details >></a>
+                    </div>
+                    <div class="btm_list">
+                        <h2>Heading</h2>
+                        <p>Donec id elit non mi porta gravida at eget metus.
+                            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
+                            ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis
+                            euismod. Donec sed odio dui.</p>
+                        <a href="#" data-role="button" id="btm_btn2">view details >></a>
+                    </div>
+                    <div class="btm_list">
+                        <h2>Heading</h2>
+                        <p>Donec id elit non mi porta gravida at eget metus.
+                            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
+                            ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis
+                            euismod. Donec sed odio dui.</p>
+                        <a href="#" data-role="button" id="btm_btn3">view details >></a>
+                    </div>
+                </div>
+            </div>
+
+            <div data-role="footer" data-theme="a">
+                <h4>&copy; company 2017</h4>
+            </div>
+        </div>
+    </body>
+</html>

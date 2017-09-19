@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<meta name="viewpoint" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<title>Insert title here</title>
+</head>
+<body>
+    <div data-role="page" id="main">
+        <div data-role="header" data-theme="b">
+            <h1>메인페이지</h1>
+        </div>
+        <div data-role="content">
+            <h2>메인페이지입니다.</h2>
+            <p><a href="#sub" data-transition="slide">서브페이지로..</a></p>            
+        </div>
+        <div data-role="footer">
+            <h2>Footer 입니다.</h2>
+        </div>
+    </div>
+    
+    <div data-role="page" id="sub">
+        <div data-role="header">
+            <h1>서브페이지</h1>
+        </div>
+        <div data-role="content">
+            <h2>서브페이지입니다.</h2>
+            <p><a href="#main" data-transition="slide" data-direction="reverse">메인페이지로..</a></p> 
+        </div>
+        <div data-role="footer">
+            <h2>Footer 입니다.</h2>
+        </div>
+    </div>    
+</body>
+</html>
