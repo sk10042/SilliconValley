@@ -1,0 +1,149 @@
+/* Styles go here */
+
+.warp{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    /*position: relative;*/
+    background-color: antiquewhite;
+    border-style: solid;
+    border:1px;
+}
+nav{
+    width: 100%;
+    /*overflow: hidden;*/
+}
+nav ul{
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+    background-color: #7c9eab;
+}
+
+nav ul li{
+
+    display: inline;
+    float: left;
+    width: 150px;
+    height: 40px;
+    background-color: #7c9eab;
+    line-height: 40px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+nav ul li a{
+    text-decoration: none;
+    display: block;
+}
+
+
+
+nav ul li > a:hover{
+    background-color: darksalmon;
+}
+
+
+nav ul li:hover ul li{
+    display: block;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+
+}
+
+nav ul li ul{
+    height: 40px;
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+nav ul li ul li{
+    display: none;
+    float: left;
+    width: 150px;
+    height: 40px;
+    background-color: #7c9eab;
+    line-height: 40px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    opacity: 0.6;
+
+}
+
+.top_box{
+    width: 80%;
+    background-color: #7c9eab;
+    margin-right: auto;
+    margin-left: auto;
+    clear: left;
+    height: 40px;
+
+
+
+}
+.top_title{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.top_discription{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    text-align: center;
+    list-style-type: none;
+}
+.subject_box{
+    idth: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    clear: left;
+}
+
+.bottom_box{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+
+
+}
+
+
+.menu_context{
+    background-color: #7c9eab;
+    padding: 10px;;
+    align-content: center;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.box_group{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    display: block;
+    justify-content: center;
+
+}
+
+article{
+    width: 300px;
+    display: inline;
+    float: left;
+}
+footer{
+    clear: left;
+}
+
