@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        /* Styles go here */
+
+        body{
+            display: flex;
+            align-items:center;
+            justify-content: center;
+            
+
+        }
+        .container{
+            /*display: flex;
+            flex-direction: row;*/
+            width: 90%;
+            
+        }
+        
+        .content{
+            display: flex;   
+            
+        }
+        
+                
+        artcle{
+           display: flex;
+           /*flex-direction: row;*/
+        }
+
+        
+        nav{
+            width: 100%;
+            display: flex;
+            align-items:center;
+            justify-content: center;    
+            /*overflow: hidden;*/
+        }
+        
+        nav dl{
+                display: none;
+        }
+        
+        
+        .nav_back{
+            background-color: chartreuse;
+            padding: 0px;
+            border-radius: 20px;
+            
+        }
+        
+        nav ul{
+            display: inline;
+            margin: 0px;
+            padding: 0px;
+            /*background-color: #7c9eab;*/
+        }
+
+        nav ul li{
+            display: inline;
+            float: left;
+            width: 150px;
+            height: 40px;
+            background-color:currentColor;
+            line-height: 40px;
+            text-align: center;
+            margin: 5px;
+            padding: 0px;
+            border-radius: 10px;
+        }
+        
+        nav ul li a{
+            text-decoration: none;
+            display: block;
+            color: white;
+        }
+
+
+
+        nav ul  > li:hover{
+            background-color: crimson;
+        }
+
+
+        nav ul li:hover ul li{
+            display: block;
+            -moz-transition: all 0.2s ease-in-out;
+            -o-transition: all 0.2s ease-in-out;
+            -webkit-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+
+        }
+
+        nav ul li ul{
+            height: 40px;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        nav ul li ul li{
+            display: none;
+            float: left;
+            width: 150px;
+            height: 40px;
+/*            background-color:darkolivegreen;*/
+            line-height: 40px;
+            text-align: center;
+            margin: 0px;
+            padding: 0px;
+            opacity: 0.6;
+
+        }
+        
+
+        @media (max-width:650px){
+            .content{
+                display: block;                   
+            }   
+            .nav_back{                
+                border-radius: 10px;
+            }
+
+        }
+        
+        @media (max-width:450px){
+            .content{
+            display: block;   
+                 
+            }
+            
+            .nav_back{
+                border-radius: 10px;
+            }
+            
+            nav{
+                width: 100%;
+                display: flex;
+                align-items:left;
+                justify-content: left;
+                /*overflow: hidden;*/
+            }
+            
+            nav dl{
+                display: block;
+            }
+            nav dt{
+                padding-left: 10px;
+            }
+            nav ul li{                            
+                display: block;
+                float: none;
+                width: 150px;
+                height: 40px;
+                background-color: chartreuse;
+                line-height: 40px;
+                text-align: left;
+                margin: 0px;
+                padding: 0px;
+                padding-left: 10px;
+                /*border-radius: 30px;*/
+                
+            }
+            
+            nav ul li ul{
+                height: 40px;
+                margin: 0px;
+                padding: 0px;
+                
+
+            }            
+            
+            nav ul li ul li{
+                display: none;
+                float: none;
+                text-align: left;
+                background-color: chartreuse;
+                /*border-radius: 30px;*/
+                margin-left: 100px;
+            }
+            
+            nav ul{
+                display: none;
+            }
+            
+            nav:hover ul{
+                display: inline;
+            }
+            nav:hover dl{
+                display: none;
+            }
+            
+        }
+        
+    </style>
+
+</head>
+
+<body >
+    <div class="container">
+        <h1>Project</h1>
+        <div class="nav_back">
+            
+            
+            
+                
+            <nav>
+               <dl>
+                   <dt> <a href="#">Menu▼</a></dt>   
+               </dl>
+                                
+                <ul class="menu_ul">
+                    <li class="menu_li"> <a href="#">Home</a></li>
+                    <li class="menu_li"> <a href="#">Projects</a> </li>
+                    <li class="menu_li"> <a href="#">Home</a>  </li>
+                    <li class="menu_li"> <a href="#">Service</a></li>
+                    <li class="menu_li">
+                        <a a href="#"> about▼</a>
+                        <ul>
+                            <li><a > Openeed▼</a></li>
+                            <li><a > Openeed▼</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu_li"> <a href="#">Downloadsa</a></li>
+                    
+                </ul>
+                
+            </nav>
+        </div>
+        <div >
+            <dl>
+                <dt>Marketing stuff!</dt>
+                <dt>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.</dt>
+            </dl>
+    
+           
+            <section class="content">
+                <article>
+                    <h3> Heading</h3>
+                    <dl>
+                        <dt>
+                            Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+                        </dt>
+                    </dl>
+                </article>
+
+                <article>
+                    <h3> Heading</h3>
+                    <dl>
+                        <dt>
+                            Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+                        </dt>
+                    </dl>
+                </article>
+
+                <article>
+                    <h3> Heading</h3>
+                    <dl>
+                        <dt>
+                            Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+                        </dt>
+                    </dl>
+                </article>
+            </section>
+        </div>
+        
+        
+        
+    </div>
+</body>
+</html>
